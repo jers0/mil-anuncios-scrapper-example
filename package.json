@@ -1,0 +1,21 @@
+{
+  "name": "mil-anuncios-scrapper",
+  "version": "1.0.0",
+  "description": "Scrapper de la plataforma (www.milanuncios.com) realizado con Puppeteer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Puppeteer",
+    "milanuncios",
+    "mil",
+    "anuncios"
+  ],
+  "author": "Izhar Sanz Fuentes",
+  "license": "ISC",
+  "dependencies": {
+    "nightmare": "^3.0.1",
+    "puppeteer": "^1.4.0"
+  }
+}
