@@ -1,11 +1,15 @@
 const Nightmare = require('nightmare');
 
 (async function init(){
-
+    
     const nightmare = Nightmare({ maxHeight:2500, minWidth:1600, show: true, webPreferences: {partition: 'mil-anunciosg'}});
     await nightmare.goto('https://www.milanuncios.com/anuncios-en-valencia/coche.htm');
     await nightmare.useragent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36');
     await nightmare.wait(2000);
+
+    /*
+        Realizamos un loop de 20 peticiones para comprobar si nos responde mil anuncios o nos bloquea.
+    */
 
     (async function loop(count = 0){
         console.log('count', count);
