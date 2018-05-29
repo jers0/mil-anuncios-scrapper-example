@@ -15,7 +15,6 @@
   "author": "Izhar Sanz Fuentes",
   "license": "ISC",
   "dependencies": {
-    "nightmare": "^3.0.1",
-    "puppeteer": "^1.4.0"
+    "nightmare": "^3.0.1"
   }
 }
