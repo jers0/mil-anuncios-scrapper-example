@@ -3,10 +3,10 @@ Ejemplo de Scrapping sobre Mil Anuncios con Nightmare y persistencia.
 
 
 
-====== PRIMER PASO ======
+#====== PRIMER PASO ======
 
-Ejecutamos el comando "npm install"
+1. Ejecutamos el comando "npm install"
 
-===== SEGUNDO PASO ======
+#===== SEGUNDO PASO ======
 
-Ejecutamos el comando: "node index.js"
+2. Ejecutamos el comando: "node index.js"
